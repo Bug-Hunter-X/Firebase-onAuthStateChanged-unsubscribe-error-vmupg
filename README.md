@@ -1,0 +1,1 @@
+This repository demonstrates a common error encountered when using Firebase's onAuthStateChanged method. The error arises from attempting to reassign the unsubscribe function, which is declared as a constant.  The solution involves using a function to manage the unsubscribe process, ensuring proper cleanup and avoiding memory leaks.
